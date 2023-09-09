@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400'); 
+
+* {
+    font-size: 16px;
+    font-family: 'M PLUS Rounded 1c';
+}
+
+main {
+    height: 500px; /*temporary*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1% 10%;
+}
+
+.navigation-buttons-container a:link, .navigation-buttons-container a:visited {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+}
+.navigation-buttons-container a:hover {
+    color: rgb(114, 207, 250);
+    background-color: rgb(255, 255, 255);
+}
+
+.navigation-buttons-container ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.navigation-buttons-container li {
+    margin: 20px 5px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(114, 207, 250);
+  }
+
+.navigation-items-container {
+    display: flex;
+    align-items: center;
+    margin: 0 2%;
+}
+
+.navigation-icon-container {
+    margin: 5px;
+}
+
+.navigation-buttons-container {
+    width: 80%;
+    margin: 0 10px 0 20px;
+}
+
+.navigation-icon {
+    width: 60px;
+}
+
+.navigation-buttons-icon {
+    width: 25px;
+}
+
+.navigation-user-buttons-container{
+    width: 20%;
+}
+
+.navigation-user-buttons-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.navigation-user-buttons-container li {
+    padding: 5px;
+}
+
+.navigation-user-buttons-container a:hover {
+    opacity: 60%;
+}
+
+.footer-container {
+    height: 50px;
+    border-top: 1px solid rgb(114, 207, 250);
+}
+
+.footer-text {
+    padding: 5px 0;
+    color: rgb(39 144 193);
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+    .page-container {
+        margin: 1% 2%;
+    }
+  }
+
+@media only screen and (max-width: 1339px) {
+    .navigation-user-buttons-container {
+        width: 100%;
+    }
+    .navigation-user-buttons-container ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+  }
