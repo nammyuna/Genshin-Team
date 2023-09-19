@@ -1,0 +1,75 @@
+header {
+    margin: 0 10%;
+}
+
+.header-container {
+    background-color: #B0AB9A;
+    background-image: url(../assets/kirara.png);
+    background-repeat: no-repeat;
+    background-position: 85% -18%;
+    height: 667px;
+}
+
+.navigation-buttons-container a:link, .navigation-buttons-container a:visited {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Exo;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+
+    /* text-decoration-line: underline; */
+}
+.navigation-buttons-container li:hover {
+    opacity: 60%;
+}
+
+.navigation-buttons-container ul {
+    display: inline-flex;
+    justify-content: flex-start;
+    gap: 29px;
+  }
+
+.navigation-items-container {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.navigation-buttons-container {
+    width: 80%;
+    margin: 0 10px 0 43px;
+}
+
+.navigation-icon {
+    width: 84px;
+    mix-blend-mode: overlay;
+}
+
+.navigation-buttons-icon {
+    width: 41px;
+    mix-blend-mode: soft-light;
+}
+
+.navigation-user-buttons-container{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation-user-buttons-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+.navigation-user-buttons-container li {
+    padding: 5px;
+}
+
+.navigation-user-buttons-container a:hover {
+    opacity: 60%;
+}
