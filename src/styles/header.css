@@ -15,10 +15,10 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     width: 502px;
-    /* height: 307px;  */
     position: relative;
     top: 75px;
     left: 140px;
+    cursor: default;
 }
 
 .header-slogan-sub {
@@ -63,7 +63,7 @@ header {
     top: 40px;
 }
 
-.navigation-buttons-container a:link, .navigation-buttons-container a:visited {
+.navigation-buttons-container a {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,0 +1,43 @@
+.footer-container {
+    height: 210px;
+    background-color: #33392E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-vector {
+    background-image: url(../assets/footer-vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin: -2px;
+}
+
+.footer-text {
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    text-align: center;
+    margin: 1% 0 2%;
+}
+
+.footer-text p {
+    margin: 0;
+}
+
+.footer-text a {
+    color: inherit;
+}
+
+.footer-sns {
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-sns img {
+    width: 30px;
+}
