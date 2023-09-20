@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:500'); 
-@import url('https://fonts.googleapis.com/css?family=Exo:600'); 
+@import url('https://fonts.googleapis.com/css?family=Dosis:500|Dosis:400'); 
+@import url('https://fonts.googleapis.com/css?family=Exo:600');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:500');
+
 @import url(styles/header.css);
 
 body {
@@ -39,9 +41,6 @@ ul {
 @media only screen and (max-width: 850px) {
     nav {
         display: none;
-    }
-    .page-container {
-        margin: 1% 2%;
     }
   }
 
