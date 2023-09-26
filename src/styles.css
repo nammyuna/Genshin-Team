@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:500|Dosis:400'); 
 @import url('https://fonts.googleapis.com/css?family=Exo:600');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:500');
+@import url('https://fonts.googleapis.com/css?family=Jockey+One');
 
 @import url(styles/header.css);
 @import url(styles/footer.css);
 
 body {
     margin: 0;
+
 }
 
 main {
@@ -15,6 +17,76 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 930px;
+    align-self: center;
+    position: relative;
+    bottom: 100px;
+}
+
+.main-carousel {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.17);
+    padding: 3%;
+}
+
+.carousel-dots {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 2%;
+}
+
+.carousel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    gap: 22px;
+}
+
+.carousel-p {
+    font-size: 22px;
+}
+
+.carousel-span {
+    color: #797C48;
+    font-family: Dancing Script;
+    font-size: 40px;
+    text-transform: lowercase;
+}
+
+.tryit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236px;
+    height: 59px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: #755A43;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.tryit-button:hover {
+    cursor: pointer;
+    border: 3px solid #FFF;
+}
+
+.button-text {
+    color: #FFF;
+    font-family: Jockey One;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .main-vector {
